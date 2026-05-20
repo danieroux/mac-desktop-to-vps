@@ -8,7 +8,7 @@
   <key>ProgramArguments</key>
   <array>
     <string>/nix/store/3scj3c1qxh5iclf8jy5hbl9pki40y77n-nodejs-22.19.0/bin/node</string>
-    <string>/Users/danie/src/inbox-reminders/server.mjs</string>
+    <string>/Users/danie/src/mac-desktop-to-vps/server.mjs</string>
   </array>
 
   <key>KeepAlive</key>

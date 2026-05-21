@@ -6,6 +6,6 @@ The simplest proxy of my Inbox List in Apple reminders, so that OpenClaw can get
 
 Considerations: If `node` goes away because of GC, this will go away.
 
-## qmd-index 
+## AssistantArthurProfile
 
-Indexes my Brain on the desktop
+We are _not_ committing this, but it is the Chrome persistent profile _with_ passwords and Credit Cards - all _not_ the important ones

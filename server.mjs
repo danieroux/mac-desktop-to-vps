@@ -9,12 +9,7 @@ const LIST = "Inbox";
 const REMINDERS = "/opt/homebrew/bin/reminders";
 
 async function showInbox() {
-  const { stdout } = await exec(REMINDERS, [
-    "show",
-    LIST,
-    "--format",
-    "json",
-  ]);
+  const { stdout } = await exec(REMINDERS, ["show", LIST, "--format", "json"]);
   return JSON.parse(stdout);
 }
 

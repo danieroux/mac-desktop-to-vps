@@ -9,7 +9,7 @@
       self,
       nixpkgs,
       flake-utils,
-    }@inputs:
+    }:
 
     flake-utils.lib.eachDefaultSystem (
       system:
@@ -18,7 +18,7 @@
           inherit system;
         };
       in
-      rec {
+      {
         formatter = pkgs.nixpkgs-fmt;
 
         devShells.default = pkgs.mkShellNoCC {
@@ -26,6 +26,7 @@
           packages = [
             pkgs.nodejs
             pkgs.just
+            pkgs.socat
           ];
         };
       }
